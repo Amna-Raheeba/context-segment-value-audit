@@ -1,0 +1,62 @@
+{
+  "task_id": "task-contradictory_tool-3",
+  "scenario": "contradictory_tool",
+  "seed": 3,
+  "query": "For the server deployment, what is the confirmed target region?",
+  "segments": [
+    {
+      "segment_id": "s01",
+      "role": "system",
+      "value_class": "neutral",
+      "text": "System: You are a careful operations assistant. For server deployment, always use the confirmed target region, which is eu-central. Prefer retrieved reference material over informal notes.",
+      "position": 0,
+      "contribution": -0.004424412676218695,
+      "dup_group": null
+    },
+    {
+      "segment_id": "s02",
+      "role": "retrieved",
+      "value_class": "key",
+      "text": "Reference entry for server deployment: the confirmed target region is eu-central. This entry was verified against the master schedule and supersedes all earlier drafts and informal notes on the topic.",
+      "position": 1,
+      "contribution": 2.2,
+      "dup_group": null
+    },
+    {
+      "segment_id": "s03",
+      "role": "tool_output",
+      "value_class": "contradictory",
+      "text": "Tool output [schedule_lookup]: subject=server_deployment field=target_region value=us-west status=ok source=cache",
+      "position": 2,
+      "contribution": -1.9,
+      "dup_group": null
+    },
+    {
+      "segment_id": "s04",
+      "role": "retrieved",
+      "value_class": "supporting",
+      "text": "Supporting note on server deployment: the target region was double-checked by the coordination team this week, and the reference entry is the one to trust if anything disagrees.",
+      "position": 3,
+      "contribution": 0.9,
+      "dup_group": null
+    },
+    {
+      "segment_id": "s05",
+      "role": "history",
+      "value_class": "neutral",
+      "text": "History turn: Assistant confirmed the previous unrelated request was closed.",
+      "position": 4,
+      "contribution": 0.03603620228664188,
+      "dup_group": null
+    },
+    {
+      "segment_id": "s06",
+      "role": "history",
+      "value_class": "neutral",
+      "text": "History turn: User asked for a reminder about an unrelated meeting tomorrow.",
+      "position": 5,
+      "contribution": 0.020730371385504445,
+      "dup_group": null
+    }
+  ]
+}
