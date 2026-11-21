@@ -1,0 +1,7059 @@
+{
+  "detection": {
+    "f1": 1.0,
+    "fn": 0,
+    "fp": 0,
+    "per_class_recall": {
+      "contradictory": 1.0,
+      "distractor": 1.0,
+      "stale": 1.0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 72
+  },
+  "detection_by_draws": {
+    "100": {
+      "f1": 0.9664429530201343,
+      "fn": 0,
+      "fp": 5,
+      "precision": 0.935064935064935,
+      "recall": 1.0
+    },
+    "25": {
+      "f1": 0.9411764705882353,
+      "fn": 0,
+      "fp": 9,
+      "precision": 0.8888888888888888,
+      "recall": 1.0
+    },
+    "400": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "50": {
+      "f1": 0.9056603773584906,
+      "fn": 0,
+      "fp": 15,
+      "precision": 0.8275862068965517,
+      "recall": 1.0
+    }
+  },
+  "masking": {
+    "mean_individual": 0.07,
+    "mean_joint": 0.541875,
+    "tasks": 8
+  },
+  "mean_full_success": 0.47078125,
+  "n_tasks": 48,
+  "packing": {
+    "oracle": {
+      "0.25": 0.5632812500000001,
+      "0.50": 0.8422916666666667,
+      "0.75": 0.8733854166666667,
+      "1.00": 0.8736979166666666,
+      "retained_at_50": 1.7891359663679611
+    },
+    "recency": {
+      "0.25": 0.239375,
+      "0.50": 0.16166666666666665,
+      "0.75": 0.24765625,
+      "1.00": 0.47078125,
+      "retained_at_50": 0.3434008186746321
+    },
+    "relevance": {
+      "0.25": 0.5558854166666667,
+      "0.50": 0.67296875,
+      "0.75": 0.5891666666666667,
+      "1.00": 0.47078125,
+      "retained_at_50": 1.4294722867573848
+    },
+    "value": {
+      "0.25": 0.5441145833333333,
+      "0.50": 0.8419791666666666,
+      "0.75": 0.8723958333333334,
+      "1.00": 0.8726041666666666,
+      "retained_at_50": 1.7884721761256777
+    }
+  },
+  "packing_rows": [
+    {
+      "budget": 0.25,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8675,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8675,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8675,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8675,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.63,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 132
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.2525,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.09,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 46
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.195,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 74
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.63,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 132
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8675,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.63,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-standard_mix-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.72,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 79
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 79
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.72,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 95
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6375,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 130
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.2325,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.085,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 46
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.155,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 74
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6375,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 130
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.72,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 69
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6375,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-1",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.7025,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 96
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.7025,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6075,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 128
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.2325,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.0725,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.17,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 70
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6075,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 128
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.7025,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-standard_mix-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6325,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.2075,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.0875,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 45
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.165,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 73
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6325,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.6975,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6325,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-standard_mix-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.7425,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.89,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.89,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.7425,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8875,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.89,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6725,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 134
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.245,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.09,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 48
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.185,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 76
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6725,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 134
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.7425,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.89,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6725,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.89,
+      "task_id": "task-standard_mix-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.715,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.715,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.8475,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6075,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.1975,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.075,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.15,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6075,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.715,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6075,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-standard_mix-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.735,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.735,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.86,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.86,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 101
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6525,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 135
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.2275,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.0725,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 46
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.1725,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 75
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6525,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 135
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.735,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.86,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6525,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-standard_mix-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.7325,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.885,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 107
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.7325,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.4625,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6675,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 97
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "relevance",
+      "success": 0.6675,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 133
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.23,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.0525,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 47
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.1525,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 75
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "recency",
+      "success": 0.6675,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 133
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.7325,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.885,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6675,
+      "scenario": "standard_mix",
+      "strategy": "oracle",
+      "success": 0.885,
+      "task_id": "task-standard_mix-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.6975,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.0625,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.3275,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.26,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 99
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.26,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 133
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.3975,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.0825,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 60
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.3875,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 91
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.26,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 133
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.6975,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.26,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-0",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.4025,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 59
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.0525,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.3225,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2525,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 90
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.25,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 122
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.085,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.4025,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 60
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.3975,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 82
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.25,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 122
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.72,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 49
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 49
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-1",
+      "tokens_used": 49
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.7025,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.055,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2925,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2425,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 97
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2325,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 130
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.37,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.0675,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 57
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.365,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 88
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.2325,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 130
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.7025,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2325,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-stale_instruction-2",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.6975,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.0575,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.28,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2175,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 95
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.22,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 127
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.2075,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.0875,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 57
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.3625,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 87
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.22,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 127
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.6975,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.22,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-stale_instruction-3",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.7425,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 85
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 85
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.065,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.35,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2575,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2575,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 128
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.45,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.45,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.4525,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.2575,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 128
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.7425,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 85
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2575,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-stale_instruction-4",
+      "tokens_used": 85
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.3875,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 20
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.06,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.28,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2175,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 97
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2025,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.19,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.07,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 56
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.36,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 87
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.2025,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.715,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2025,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-stale_instruction-5",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.735,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8525,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 88
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 88
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.06,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 23
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.3175,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.25,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 103
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.25,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.41,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 33
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.0725,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.4175,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.25,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.735,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.86,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 76
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.25,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-stale_instruction-6",
+      "tokens_used": 76
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.4625,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 60
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 82
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 82
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.0325,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.345,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2475,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "relevance",
+      "success": 0.2475,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 125
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.05,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.4625,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.4625,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 83
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "recency",
+      "success": 0.2475,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 125
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.7325,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.875,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 73
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.2475,
+      "scenario": "stale_instruction",
+      "strategy": "oracle",
+      "success": 0.875,
+      "task_id": "task-stale_instruction-7",
+      "tokens_used": 73
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.39,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.7,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.39,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.495,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.2525,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 50
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1325,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.495,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.39,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.7,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.495,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-contradictory_tool-0",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.4025,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.72,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 51
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 79
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 79
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4025,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.7175,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 56
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.8575,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 84
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4675,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 113
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.2325,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4075,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 49
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.095,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 83
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4675,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 113
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.4025,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.72,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 69
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4675,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-1",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.3775,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.7075,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 96
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.3775,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.7025,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.845,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4625,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 116
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.2325,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 85
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4625,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 116
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.3775,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.7075,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4625,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-contradictory_tool-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.36,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.7125,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 106
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.36,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 56
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 84
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4425,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 114
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.2075,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.37,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 50
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1075,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 84
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4425,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 114
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.36,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.7125,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4425,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.45,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.745,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.89,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.89,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.45,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.7425,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.8875,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.525,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.245,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4525,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 50
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1125,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.525,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.45,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.745,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 53
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.89,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 81
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.525,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.89,
+      "task_id": "task-contradictory_tool-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.3875,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.7225,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.3875,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.7125,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.8525,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4475,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1975,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 22
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.3775,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 50
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.0825,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4475,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.3875,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.7225,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4475,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-5",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.415,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.74,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 70
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.415,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.74,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 60
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 89
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4825,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 119
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.0525,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.095,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 59
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.1,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 87
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.4825,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 119
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.415,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.74,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 70
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.4825,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-contradictory_tool-6",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.4625,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.7375,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 80
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 107
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.4625,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.7325,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.875,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "relevance",
+      "success": 0.53,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 116
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.23,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.0675,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.0675,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 85
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "recency",
+      "success": 0.53,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 116
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.4625,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.74,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.88,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.53,
+      "scenario": "contradictory_tool",
+      "strategy": "oracle",
+      "success": 0.885,
+      "task_id": "task-contradictory_tool-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.39,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.79,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 70
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.69,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 141
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.09,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 33
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.1875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.63,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 88
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.69,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 141
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.39,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.69,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-0",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.4025,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8925,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8925,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 94
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.72,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7875,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8925,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7025,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 139
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.085,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 33
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.155,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.64,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 87
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.7025,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 139
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.4025,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 54
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.895,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 84
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7025,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.895,
+      "task_id": "task-redundant_key-1",
+      "tokens_used": 84
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.3775,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.875,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 108
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.875,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7025,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7525,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.875,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 108
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.675,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.22,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 33
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.16,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6025,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 92
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.675,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.3775,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.675,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-redundant_key-2",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.36,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8825,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8825,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 116
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.77,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8825,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.6925,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 136
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.0875,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.1575,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 58
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6275,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 84
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6925,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 136
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.36,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8825,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 94
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6925,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8825,
+      "task_id": "task-redundant_key-3",
+      "tokens_used": 94
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.45,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.92,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.92,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 120
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7425,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8075,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 70
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.92,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 108
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.735,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.09,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 36
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.17,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.665,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 91
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.735,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.45,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.92,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.735,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.92,
+      "task_id": "task-redundant_key-4",
+      "tokens_used": 120
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.3875,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.895,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.895,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.715,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7775,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 68
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.895,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 96
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.6875,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.075,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 36
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.1475,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6175,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 91
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6875,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.3875,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.895,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6875,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.895,
+      "task_id": "task-redundant_key-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.415,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.86,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 57
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8975,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 89
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.9025,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 112
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.735,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.78,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 72
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8975,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 101
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7225,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 146
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.07,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 34
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.17,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6375,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 91
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.7225,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 146
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.415,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 29
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.86,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 57
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8975,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 89
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.9025,
+      "task_id": "task-redundant_key-6",
+      "tokens_used": 112
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.4625,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.915,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "value",
+      "success": 0.915,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7325,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.8,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 67
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.915,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 95
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "relevance",
+      "success": 0.7225,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 141
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.05,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 33
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.1525,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.6575,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 88
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "recency",
+      "success": 0.7225,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 141
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.4625,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 28
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 55
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.915,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.7225,
+      "scenario": "redundant_key",
+      "strategy": "oracle",
+      "success": 0.915,
+      "task_id": "task-redundant_key-7",
+      "tokens_used": 108
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.6975,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 92
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 92
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.695,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.615,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 130
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.62,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 175
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.24,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2425,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.1825,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 117
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.62,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 175
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.6975,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.88,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 92
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.62,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.88,
+      "task_id": "task-bloated_history-0",
+      "tokens_used": 92
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.725,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 78
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 123
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.88,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 123
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.725,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.8575,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 84
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.665,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 129
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.67,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 174
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.26,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 44
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.26,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.17,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 118
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.67,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 174
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.725,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 78
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8825,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 101
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8825,
+      "task_id": "task-bloated_history-1",
+      "tokens_used": 101
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.85,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 78
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8475,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 117
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8475,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 117
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.845,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.6075,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 127
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.6025,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 171
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2275,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.07,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 85
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.16,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 113
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.6025,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 171
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.85,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 78
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.85,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 90
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.6025,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.85,
+      "task_id": "task-bloated_history-2",
+      "tokens_used": 90
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 102
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 84
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.63,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 127
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.625,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 172
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.19,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.205,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.1575,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 116
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.625,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 172
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.7075,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.625,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-bloated_history-3",
+      "tokens_used": 102
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.7575,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.895,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.9075,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 124
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.91,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 151
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.745,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.8875,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.6825,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 131
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.695,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 177
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.265,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.27,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 119
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.695,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 177
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.7575,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.895,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.9075,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 124
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.695,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.91,
+      "task_id": "task-bloated_history-4",
+      "tokens_used": 151
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.725,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 102
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.7125,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.8525,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 86
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.595,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 128
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.635,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 171
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2125,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.0775,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 85
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.16,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 113
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.635,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 171
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.725,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.635,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-5",
+      "tokens_used": 102
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.74,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.87,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 130
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.875,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 141
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.74,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.8625,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 89
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.67,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 133
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.67,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 178
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2475,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.08,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 89
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.185,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 118
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.67,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 178
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.74,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 42
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.87,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 81
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 130
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.67,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-6",
+      "tokens_used": 130
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.74,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 80
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 129
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "value",
+      "success": 0.8775,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 129
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.7325,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 41
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.6575,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 85
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.6575,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 131
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "relevance",
+      "success": 0.655,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 176
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.2175,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.22,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.15,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 118
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "recency",
+      "success": 0.655,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 176
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.74,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 43
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.88,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.885,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.655,
+      "scenario": "bloated_history",
+      "strategy": "oracle",
+      "success": 0.885,
+      "task_id": "task-bloated_history-7",
+      "tokens_used": 98
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.3975,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8675,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 74
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8675,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 74
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.63,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0625,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.15,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.3975,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.065,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 68
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0075,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 92
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.15,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.3975,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 52
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.15,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-0",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.4025,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 18
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 48
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 48
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 48
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.72,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.6475,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0525,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.105,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.4025,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 18
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0525,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 61
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.005,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.105,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.4025,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 8
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 38
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 38
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.105,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-1",
+      "tokens_used": 38
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.3775,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 62
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.7025,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.6075,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.055,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.1125,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.37,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 20
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0525,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 70
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.01,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 91
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.1125,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 144
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.3775,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 9
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 40
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.845,
+      "task_id": "task-distractor_heavy-2",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.3575,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 60
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 70
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 70
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.6975,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 30
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.3625,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0525,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 98
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.1125,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.3625,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 18
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0575,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0225,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 86
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.1125,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 138
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.3625,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 18
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 48
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 48
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1125,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.865,
+      "task_id": "task-distractor_heavy-3",
+      "tokens_used": 48
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.45,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 74
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 74
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.7425,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.665,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.065,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.1275,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.45,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.065,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.005,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 92
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.1275,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 145
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.45,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 52
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 74
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.1275,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8875,
+      "task_id": "task-distractor_heavy-4",
+      "tokens_used": 74
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.3875,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 9
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.715,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.3725,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 65
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.06,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0975,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 143
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.3725,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 19
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.06,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 69
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0175,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 90
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0975,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 143
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.3875,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 9
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0975,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8575,
+      "task_id": "task-distractor_heavy-5",
+      "tokens_used": 40
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.4225,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.735,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.645,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.06,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 106
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.12,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 150
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.41,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 21
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.06,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 70
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0225,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 95
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.12,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 150
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.4225,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 32
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.12,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.8625,
+      "task_id": "task-distractor_heavy-6",
+      "tokens_used": 64
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.4625,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 71
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "value",
+      "success": 0.8725,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 71
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.7325,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.6575,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 66
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0325,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 102
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "relevance",
+      "success": 0.0925,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 142
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.4625,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 18
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0325,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 63
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0075,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 89
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "recency",
+      "success": 0.0925,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 142
+    },
+    {
+      "budget": 0.25,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.4625,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 31
+    },
+    {
+      "budget": 0.5,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.875,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 62
+    },
+    {
+      "budget": 0.75,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.875,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 62
+    },
+    {
+      "budget": 1.0,
+      "full_success": 0.0925,
+      "scenario": "distractor_heavy",
+      "strategy": "oracle",
+      "success": 0.875,
+      "task_id": "task-distractor_heavy-7",
+      "tokens_used": 62
+    }
+  ],
+  "per_scenario_at_50": {
+    "bloated_history": {
+      "full": 0.6465625,
+      "oracle": 0.8715625,
+      "recency": 0.178125,
+      "relevance": 0.83625,
+      "value": 0.87125
+    },
+    "contradictory_tool": {
+      "full": 0.4815625,
+      "oracle": 0.7234375,
+      "recency": 0.28375,
+      "relevance": 0.7178125,
+      "value": 0.723125
+    },
+    "distractor_heavy": {
+      "full": 0.1146875,
+      "oracle": 0.8653125,
+      "recency": 0.055625,
+      "relevance": 0.5734375,
+      "value": 0.865
+    },
+    "redundant_key": {
+      "full": 0.7034375,
+      "oracle": 0.8646875,
+      "recency": 0.1625,
+      "relevance": 0.783125,
+      "value": 0.8646875
+    },
+    "stale_instruction": {
+      "full": 0.24,
+      "oracle": 0.8646875,
+      "recency": 0.211875,
+      "relevance": 0.314375,
+      "value": 0.86375
+    },
+    "standard_mix": {
+      "full": 0.6384375,
+      "oracle": 0.8640625,
+      "recency": 0.078125,
+      "relevance": 0.8128125,
+      "value": 0.8640625
+    }
+  },
+  "scenarios": [
+    "standard_mix",
+    "stale_instruction",
+    "contradictory_tool",
+    "redundant_key",
+    "bloated_history",
+    "distractor_heavy"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "value_mae": 0.009981697270967918
+}
